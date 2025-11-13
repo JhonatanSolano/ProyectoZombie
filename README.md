@@ -20,7 +20,6 @@ La simulación incluye una **visualización animada** en tiempo real usando `mat
 
 ## ⚙️ Estructura del Proyecto
 
-```bash
 📂 ProyectoZombie
  ┣ 📄 config.py          → Parámetros globales (tamaño del mapa, turnos, direcciones)
  ┣ 📄 strategies.py      → Implementación de Expectimax (sobreviviente) y Minimax local (zombies)
