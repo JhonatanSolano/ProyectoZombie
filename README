@@ -20,10 +20,22 @@ La simulación incluye una **visualización animada** en tiempo real usando `mat
 
 ## ⚙️ Estructura del Proyecto
 
-├── config.py # Parámetros generales del entorno
-├── strategies.py # Lógica de IA (Expectimax y comportamiento zombie)
-├── simulation.py # Ejecución de la simulación y control de turnos
-├── visualization.py # Visualización animada con matplotlib
-├── main.py # Programa principal (niveles, rondas, estadísticas)
-└── requirements.txt # Dependencias del proyecto
- 
+📂 ProyectoZombie
+ ┣ 📄 config.py          → Parámetros globales (tamaño del mapa, turnos, direcciones)
+ ┣ 📄 strategies.py      → Implementación de Expectimax (sobreviviente) y Minimax local (zombies)
+ ┣ 📄 simulation.py      → Lógica principal de la simulación
+ ┣ 📄 visualization.py   → Visualización en tiempo real con Matplotlib
+ ┣ 📄 main.py            → Archivo principal para ejecutar el proyecto
+ ┣ 📄 requirements.txt   → Dependencias del entorno
+ ┣ 📄 Proyecto_2__IA.pdf → Informe académico completo
+ ┗ 📄 README.md          → Este documento
+
+## 📄 Reporte del Proyecto
+[📘 Ver o descargar el informe en PDF](Proyecto_2__IA.pdf)
+
+## 📋 Requisitos
+
+Instalar las dependencias necesarias:
+
+```bash
+pip install -r requirements.txt
