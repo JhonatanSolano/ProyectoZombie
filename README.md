@@ -20,15 +20,17 @@ La simulación incluye una **visualización animada** en tiempo real usando `mat
 
 ## ⚙️ Estructura del Proyecto
 
-📂 ProyectoZombie/
-├── 📄 config.py             # Parámetros globales (tamaño del mapa, turnos, direcciones, etc.)
-├── 📄 strategies.py         # Implementación de Expectimax (sobreviviente) y Minimax local (zombies)
-├── 📄 simulation.py         # Lógica principal de la simulación y manejo del estado del juego
-├── 📄 visualization.py      # Visualización animada en tiempo real con Matplotlib
-├── 📄 main.py               # Archivo principal para ejecutar el proyecto
-├── 📄 requirements.txt      # Dependencias del entorno
-├── 📄 Proyecto_2__IA.pdf    # Informe académico completo
-└── 📄 README.md             # Este documento
+## Estructura del Proyecto
+
+* **ProyectoZombie/**
+    * `config.py` # Parámetros globales (tamaño del mapa, turnos, direcciones, etc.)
+    * `strategies.py` # Implementación de Expectimax (sobreviviente) y Minimax local (zombies)
+    * `simulation.py` # Lógica principal de la simulación y manejo del estado del juego
+    * `visualization.py` # Visualización animada en tiempo real con Matplotlib
+* `main.py` # Archivo principal para ejecutar el proyecto
+* `requirements.txt` # Dependencias del entorno
+* `Proyecto_2_IA.pdf` # Informe académico completo
+* `README.md` # Este documento
 
 ## 📄 Reporte del Proyecto
 [📘 Ver o descargar el informe en PDF](Proyecto_2___IA.pdf)
